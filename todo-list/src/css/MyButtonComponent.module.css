@@ -1,0 +1,39 @@
+/* MyButtonComponent.module.css */
+.btn {
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(30deg, rebeccapurple, magenta); 
+    color: #fff; 
+    padding: 12px 15px; 
+    font-family: Arial, sans-serif; 
+    font-weight: bold;
+    margin:5px;
+    
+}
+
+.btnDelete {
+    background: black; 
+    border: none;
+    border-radius: 5px;
+    color: #fff; 
+    padding: 12px 15px; 
+    font-family: Arial, sans-serif; 
+    font-weight: bold;
+    margin:5px;
+}
+
+.input {
+    background:rgb(242, 241, 241);
+    border:none;
+    border-radius: 2px;
+    height: 35px;
+    margin: 5px;
+}
+
+.checked {
+    text-decoration:line-through;
+}
+
+.unchecked {
+    text-decoration:none;
+}

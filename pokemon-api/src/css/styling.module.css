@@ -1,0 +1,12 @@
+.btn {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px rgb(97, 97, 97);
+    background: linear-gradient(30deg,#F8DF09,#E8E8E0);
+    color: #fff; 
+    padding: 12px 15px; 
+    font-family: Arial, sans-serif; 
+    font-weight: bold;
+    margin:5px;
+    width:50vh;
+}

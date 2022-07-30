@@ -1,0 +1,5 @@
+1. https://pokeapi.co/api/v2/pokemon/charizard
+2. https://pokeapi.co/api/v2/pokemon/400
+3. https://pokeapi.co/api/v2/pokemon-species/770/
+4. https://pokeapi.co/api/v2/pokemon-color/brown
+5. https://pokeapi.co/api/v2/evolution-chain/10/
