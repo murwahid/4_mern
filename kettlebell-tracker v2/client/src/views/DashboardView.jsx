@@ -13,6 +13,10 @@ import TinyBarChart from '../components/TinyBarChart';
 import TestDrawer from '../components/TestDrawer';
 import DataTable from '../components/DataTable';
 
+//test imports 
+import { styled } from '@mui/material/styles';
+
+
 
 //IMPORT: TWILIO
 // const twilio = require('twilio');
@@ -23,19 +27,39 @@ import DataTable from '../components/DataTable';
 
 function DashboardView() {
     // let today = new Date()
+
+    const Item = styled(Paper)(({ theme }) => ({
+        backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+        ...theme.typography.body2,
+        padding: theme.spacing(1),
+        textAlign: 'center',
+        color: theme.palette.text.secondary,
+    }));
+
     return (
-        <div>
-            <div style={{ marginBottom: 10 }}>
-                <TestDrawer />
-            </div>
+        // <div>
+        //     <div style={{ marginBottom: 10 }}>
+        //         <TestDrawer />
+        //     </div>
 
-            <div style={{ display: "flex", justifyContent: "space-around" }}>
-                <DataTable />
-                <AddForm />
-            </div>
+        //     <div style={{ display: "flex", justifyContent: "space-between" }}>
+        //         <DataTable />
+        //         <AddForm />
+        //     </div>
+        //     </div>
 
 
-        </div>
+        <Box sx={{ flexGrow: 1 }}>
+            <Grid container spacing={2}>
+                <Grid item xs={8}>
+                    <Item><DataTable/></Item>
+                </Grid>
+                <Grid item xs={4}>
+                    <Item><AddForm/></Item>
+                </Grid>
+            </Grid>
+        </Box>
+
     )
 }
 

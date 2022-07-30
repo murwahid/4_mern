@@ -57,8 +57,8 @@ const handleCommit = (e:GridCellEditCommitParams) => {
 }
 
   return (
-    //style={{ height: 400, width: '100%' }}
-    <div>
+    
+    <div style={{ height: 500, width: '100%' }}>
       <DataGrid
         onCellEditCommit={handleCommit}
         rows={tableData}

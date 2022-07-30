@@ -13,6 +13,7 @@ import DataTable from './components/DataTable';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import TestCardView from './views/TestCardView';
+import TestDrawer from './components/TestDrawer';
 
 
 
@@ -21,13 +22,22 @@ import TestCardView from './views/TestCardView';
 function App() {
   return (
     <div className="App">
-      <Box
+      {/* <Box
         sx={{
           display: 'flex'
         }}
       >
           <DashboardView />
-      </Box>
+      </Box> */}
+      <div class="mb-5">
+      <TestDrawer/>
+      </div>
+      <div> 
+        <DashboardView/>
+      </div>
+  
+
+
       {/* <TestCardView/> */}
       {/* <BasicCard/> */}
       {/* <Chart/> */}
