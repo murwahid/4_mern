@@ -14,6 +14,7 @@ import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import TestCardView from './views/TestCardView';
 import TestDrawer from './components/TestDrawer';
+import AnalyticsView from './views/AnalyticsView';
 
 
 
@@ -33,7 +34,8 @@ function App() {
       <TestDrawer/>
       </div>
       <div> 
-        <DashboardView/>
+        {/* <DashboardView/> */}
+        <AnalyticsView/>
       </div>
   
 
